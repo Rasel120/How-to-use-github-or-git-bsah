@@ -18,9 +18,9 @@ You can add more folders similarly.
 
 # Necessary Command  
 
-ls
-cd
-git init
+ls	
+cd	
+git init	
 git remote add origin <gitlink>
 git remote -v
 git add .
