@@ -28,7 +28,9 @@ git --version
 
 
 ls- List all the files in the current directory
+
 cd - To change the directory
+
 git init- Initializes the git in this path. You can see the .git hidden files after this command gets executed.
 
 git remote add origin [gitLink]- gitLink denote the place where your code is stored in the remote repository
@@ -39,4 +41,7 @@ git commit -m "First commit"- It establishes a connection with local repository
 
 git push origin master- It establishes a connection with a remote repository and upload your source code or files to GitHub
 
+git help- Its given all help command 
+
+git --version- For check gitbash current version
 ```
