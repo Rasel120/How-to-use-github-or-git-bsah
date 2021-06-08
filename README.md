@@ -15,8 +15,9 @@ You can add more folders similarly.
 
 #### Necessary Command  
 ```
-ls	
-cd	
+ls
+mkdir
+cd
 git init	
 git remote add origin <gitlink>
 git remote -v
@@ -28,6 +29,8 @@ git --version
 
 
 ls- List all the files in the current directory
+
+mkdir- To create new folder
 
 cd - To change the directory
 
