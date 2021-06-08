@@ -14,3 +14,18 @@ Click on New file.
 On the text field for the file name, first write the folder name you want to create.
 Then type / . ...
 You can add more folders similarly.
+
+
+# Necessary Command  
+
+ls
+cd
+git init
+git remote add origin <gitlink>
+git remote -v
+git add .
+git commit -m "first commit"
+git push origin master
+git help
+
+	
