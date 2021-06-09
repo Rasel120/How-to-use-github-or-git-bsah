@@ -34,8 +34,9 @@ git add .    or    git add *   or   git add --all
 git commit -m "first commit"
 git push origin master
 git log
-git help
+git status
 git --version
+git help
 
 
 ls- List all the files in the current directory
@@ -56,7 +57,11 @@ git push origin master- It establishes a connection with a remote repository and
 
 git log- Comment see
 
-git help- Its given all help command 
+git status- The git status command displays the state of the working directory and the staging area
 
 git --version- For check gitbash current version
+
+git help- Its given all help command 
+
+
 ```
