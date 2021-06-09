@@ -12,6 +12,15 @@ On the text field for the file name, first write the folder name you want to cre
 Then type / . ...
 You can add more folders similarly.
 ```
+#### Early upload Command
+```
+git add .
+git commit -m "first commit"
+git push
+
+```
+
+
 
 #### Necessary Command  
 ```
