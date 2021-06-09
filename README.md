@@ -24,6 +24,7 @@ git remote -v
 git add .    or    git add *   or   git add --all     
 git commit -m "first commit"
 git push origin master
+git log
 git help
 git --version
 
@@ -43,6 +44,8 @@ git add .- Add all the files in the directory
 git commit -m "First commit"- It establishes a connection with local repository
 
 git push origin master- It establishes a connection with a remote repository and upload your source code or files to GitHub
+
+git log- Comment see
 
 git help- Its given all help command 
 
