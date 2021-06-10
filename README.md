@@ -17,7 +17,6 @@ You can add more folders similarly.
 git add .
 git commit -m "first commit"
 git push
-
 ```
 #### Big MB file loded problem solution Command
 ```
@@ -41,33 +40,41 @@ git log
 git status
 git --version
 git help
+__git
 
 
-ls- List all the files in the current directory
+ls = List all the files in the current directory
 
-mkdir- To create new folder
+mkdir = To create new folder
 
-cd - To change the directory
+cd = To change the directory
 
-git init- Initializes the git in this path. You can see the .git hidden files after this command gets executed.
+git init = Initializes the git in this path. You can see the .git hidden files after this command gets executed.
 
-git remote add origin [gitLink]- gitLink denote the place where your code is stored in the remote repository
+git remote add origin [gitLink] = gitLink denote the place where your code is stored in the remote repository
 
-git add .- Add all the files in the directory
+git add . = Add all the files in the directory
 
-git commit -m "First commit"- It establishes a connection with local repository
+git commit -m "First commit" = It establishes a connection with local repository
 
-git pull- Fetch from and integrate with another repository or a local branch
+git pull = Fetch from and integrate with another repository or a local branch
 
-git push origin master- It establishes a connection with a remote repository and upload your source code or files to GitHub
+git push origin maste = It establishes a connection with a remote repository and upload your source code or files to GitHub
 
-git log- Comment see
+git log = Comment see
 
-git status- The git status command displays the state of the working directory and the staging area
+git status = The git status command displays the state of the working directory and the staging area
 
-git --version- For check gitbash current version
+git --version = For check gitbash current version
 
-git help- Its given all help command 
+git help = Its given all help command 
 
+__git = Get git Command
 
 ```
+
+#### Brancing Command
+```
+git clone <link> -b <brance name>
+Example: git clone https://github.com/Rasel120/How_to_create_and_use_branch.git -b person1
+````
