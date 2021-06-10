@@ -19,7 +19,10 @@ git commit -m "first commit"
 git push
 
 ```
-
+#### Big MB file loded problem solution Command
+```
+git config --global http.postBuffer 157286400
+```
 
 
 #### Necessary Command  
@@ -32,6 +35,7 @@ git remote add origin <gitlink>
 git remote -v
 git add .    or    git add *   or   git add --all     
 git commit -m "first commit"
+git pull
 git push origin master
 git log
 git status
@@ -52,6 +56,8 @@ git remote add origin [gitLink]- gitLink denote the place where your code is sto
 git add .- Add all the files in the directory
 
 git commit -m "First commit"- It establishes a connection with local repository
+
+git pull- Fetch from and integrate with another repository or a local branch
 
 git push origin master- It establishes a connection with a remote repository and upload your source code or files to GitHub
 
