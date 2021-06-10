@@ -73,7 +73,7 @@ __git = Get git Command
 
 ```
 
-#### Brancing Command
+#### Branching Command
 ```
 git clone <link> -b <brance name>
 Example: git clone https://github.com/Rasel120/How_to_create_and_use_branch.git -b person1
