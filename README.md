@@ -18,7 +18,7 @@ git add .
 git commit -m "first commit"
 git push
 ```
-#### Big MB file loded problem solution Command
+#### Big MB file loaded problem solution Command
 ```
 git config --global http.postBuffer 157286400
 ```
