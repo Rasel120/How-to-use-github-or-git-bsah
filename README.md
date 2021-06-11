@@ -23,6 +23,15 @@ git push
 git config --global http.postBuffer 157286400
 ```
 
+#### High Storage Limit
+Let us say this first: git is not a backup utility. You do not use git for online storage or backups. It’s inefficient for that, and it bogs down the servers and your computers. That said, however, when you get a large number of commits and pushes and branches, your repo can start packing some serious mass.
+
+A benefit of GitHub is that you don’t get charged for that storage. Even on a free plan. There is a hard 100-gigabyte cap on GitHub repositories, though they recommend it being under 1gb (which many of them will be). The file uploads are limited to 100mb for command line and 25mb for web uploads.
+
+Bitbucket, though, only allows free users 1gb total. Instead of requesting that you keep it below 1gb and then emailing you when you reach 75 (which is a very large range and kind of an odd choice), Atlassian pushes you toward the paid plans at 1+gb.
+
+Now, that is 1gb per repo, so you can have multiple repos for free like that. But you don’t have to worry about that with GitHub. Both of them offer large file solutions, too (Bitbucket’s is here, and GitHub’s is here).
+
 
 #### Necessary Command  
 ```
