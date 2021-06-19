@@ -1,37 +1,15 @@
 # How to use github with git bash...
 
 - How to use github or git bsah. all commend and some video link
-- Git Repository Edit,update file or folder menualy from "Find file" beside the 'Clone or download'..
+- Git Repository Edit,update,branching file or folder menualy from "Find file" beside the 'Clone or download'..
 - And insert for drag and drop the Repository
 
-#### How to create a new folder in same repository
-```
-Go to the folder inside which you want to create another folder.
-Click on New file.
-On the text field for the file name, first write the folder name you want to create.
-Then type / . ...
-You can add more folders similarly.
-```
 #### Early upload Command
 ```
 git add .
 git commit -m "first commit"
 git push
 ```
-#### Big MB file loaded problem solution Command
-```
-git config --global http.postBuffer 157286400
-```
-
-#### High Storage Limit
-Let us say this first: git is not a backup utility. You do not use git for online storage or backups. It’s inefficient for that, and it bogs down the servers and your computers. That said, however, when you get a large number of commits and pushes and branches, your repo can start packing some serious mass.
-
-A benefit of GitHub is that you don’t get charged for that storage. Even on a free plan. There is a hard 100-gigabyte cap on GitHub repositories, though they recommend it being under 1gb (which many of them will be). The file uploads are limited to 100mb for command line and 25mb for web uploads.
-
-Bitbucket, though, only allows free users 1gb total. Instead of requesting that you keep it below 1gb and then emailing you when you reach 75 (which is a very large range and kind of an odd choice), Atlassian pushes you toward the paid plans at 1+gb.
-
-Now, that is 1gb per repo, so you can have multiple repos for free like that. But you don’t have to worry about that with GitHub. Both of them offer large file solutions, too (Bitbucket’s is here, and GitHub’s is here).
-
 
 #### Necessary Command  
 ```
@@ -41,7 +19,7 @@ cd
 git init	
 git remote add origin <gitlink>
 git remote -v
-git add .    or    git add *   or   git add --all     
+git add .    or    git add *   or   git add -A    
 git commit -m "first commit"
 git pull
 git push origin master
@@ -87,3 +65,28 @@ __git = Get git Command
 git clone <link> -b <brance name>
 Example: git clone https://github.com/Rasel120/How_to_create_and_use_branch.git -b person1
 ````
+
+#### How to create a new folder in same repository
+```
+Go to the folder inside which you want to create another folder.
+Click on New file.
+On the text field for the file name, first write the folder name you want to create.
+Then type / . ...
+You can add more folders similarly.
+```
+
+#### Big MB file loaded problem solution Command
+```
+git config --global http.postBuffer 157286400
+```
+
+#### High Storage Limit
+Let us say this first: git is not a backup utility. You do not use git for online storage or backups. It’s inefficient for that, and it bogs down the servers and your computers. That said, however, when you get a large number of commits and pushes and branches, your repo can start packing some serious mass.
+
+A benefit of GitHub is that you don’t get charged for that storage. Even on a free plan. There is a hard 100-gigabyte cap on GitHub repositories, though they recommend it being under 1gb (which many of them will be). The file uploads are limited to 100mb for command line and 25mb for web uploads.
+
+Bitbucket, though, only allows free users 1gb total. Instead of requesting that you keep it below 1gb and then emailing you when you reach 75 (which is a very large range and kind of an odd choice), Atlassian pushes you toward the paid plans at 1+gb.
+
+Now, that is 1gb per repo, so you can have multiple repos for free like that. But you don’t have to worry about that with GitHub. Both of them offer large file solutions, too (Bitbucket’s is here, and GitHub’s is here).
+
+
