@@ -28,6 +28,9 @@ git status
 git --version
 git help
 __git
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
 
 
 ls = List all the files in the current directory
@@ -57,6 +60,9 @@ git --version = For check gitbash current version
 git help = Its given all help command 
 
 __git = Get git Command
+
+To set your account's default identity.
+
 
 ```
 
