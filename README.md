@@ -11,14 +11,17 @@ git commit -m "first commit"
 git push
 ```
 #### Configure Git
-1. In your shell, add your user name:
+```
+1. In your shell, add your user name:        
          git config --global user.name "your_username"
-2. Add your email address:  
-        git config --global user.email "your_email_address@example.com"
-3. o check the configuration, run:  
-        git config --global --list
+2. Add your email address:                   
+         git config --global user.email "your_email_address@example.com"
+3. o check the configuration, run:          
+         git config --global --list
         
 The --global option tells Git to always use this information for anything you do on your system. If you omit --global or use --local, the configuration applies only to the current repository.
+
+```
 
 #### Necessary Command  
 ```
